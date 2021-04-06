@@ -34,7 +34,6 @@
                                             @method('delete')
                                             @csrf
                                             <a href="{{route('rw.edit',$data->id)}}" class="btn btn-success">Edit</a>
-                                            <a href="{{route('rw.show',$data->id)}}" class="btn btn-warning">Show</a>
                                             <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ?')">Delete</button>
                                         </form>
                                     </td>

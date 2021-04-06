@@ -66,7 +66,7 @@
         </li>
         <li class="c-sidebar-nav-item">
             <a class="c-sidebar-nav-link {{ request()->is('admin/rw*') ? 'c-active' : '' }}"
-                href="{{ route('rw.index') }}">
+                href="{{ url('/admin/rw') }}">
                 <svg class="c-sidebar-nav-icon">
                     <use xlink:href="{{ asset('assets/vendors/@coreui/icons/svg/free.svg#cil-blur-circular') }}"></use>
                 </svg> Rukun Warga
@@ -74,7 +74,7 @@
         </li>
         <li class="c-sidebar-nav-item">
             <a class="c-sidebar-nav-link {{ request()->is('admin/kasus*') ? 'c-active' : '' }}"
-                href="{{ route('kasus.index') }}">
+                href="{{ url('/admin/kasus') }}">
                 <svg class="c-sidebar-nav-icon">
                     <use xlink:href="{{ asset('assets/vendors/@coreui/icons/svg/free.svg#cil-blur-circular') }}"></use>
                 </svg> Kasus
