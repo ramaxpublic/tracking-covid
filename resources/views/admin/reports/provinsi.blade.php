@@ -28,7 +28,7 @@
                                         <br>
                                         <button class="btn btn-success btn-outline">Cari</button>
                                         <a href="{{route('pdfreport')}}"
-                                        class="btn btn-danger float-right"><i class="fa fa-pdf">Pdf</i>
+                                        class="btn btn-danger float-right">Pdf
                                      </a>
                                     </div>
                                 </div>

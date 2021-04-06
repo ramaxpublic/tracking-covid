@@ -7,7 +7,7 @@
                 <div class="card-header">
                     Data Rukun Warga
                     <a href="{{route('rw.create')}}"
-                       class="btn btn-primary float-right">
+                       class="btn btn-success float-right">
                         Tambah
                     </a>
                 </div>
@@ -33,7 +33,7 @@
                                         <form action="{{route('rw.destroy',$data->id)}}" method="post">
                                             @method('delete')
                                             @csrf
-                                            <a href="{{route('rw.edit',$data->id)}}" class="btn btn-success">Edit</a>
+                                            <a href="{{route('rw.edit',$data->id)}}" class="btn btn-info">Edit</a>
                                             <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ?')">Delete</button>
                                         </form>
                                     </td>

@@ -6,7 +6,7 @@
                 <div class="card">
                     <div class="card-header">
                         Data users
-                        <a href="{{ route('users.create') }}" class="btn btn-primary float-right">
+                        <a href="{{ route('users.create') }}" class="btn btn-success float-right">
                             Tambah
                         </a>
                     </div>

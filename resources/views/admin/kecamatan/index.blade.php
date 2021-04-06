@@ -7,7 +7,7 @@
                 <div class="card-header">
                     Data Kecamatan
                     <a href="{{route('kecamatan.create')}}"
-                       class="btn btn-primary float-right">
+                       class="btn btn-success float-right">
                         Tambah
                     </a>
                 </div>
@@ -33,7 +33,7 @@
                                         <form action="{{route('kecamatan.destroy',$data->id)}}" method="post">
                                             @method('delete')
                                             @csrf
-                                            <a href="{{route('kecamatan.edit',$data->id)}}" class="btn btn-success">Edit</a>
+                                            <a href="{{route('kecamatan.edit',$data->id)}}" class="btn btn-info">Edit</a>
                                             {{--  <a href="{{route('kecamatan.show',$data->id)}}" class="btn btn-warning">Show</a>  --}}
                                             <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ?')">Delete</button>
                                         </form>

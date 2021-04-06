@@ -47,7 +47,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-block">Simpan</button>
+                            <button type="submit" class="btn btn-success btn-block">Simpan</button>
                         </div>
                     </form>
                 </div>

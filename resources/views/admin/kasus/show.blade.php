@@ -59,7 +59,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <a href="{{route('kasus.index')}}" class="btn btn-primary btn-block">Kembali</a>
+                                <a href="{{route('kasus.index')}}" class="btn btn-succes btn-block">Kembali</a>
                             </div>
                     </div>
                 </div>

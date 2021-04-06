@@ -7,7 +7,7 @@
                 <div class="card-header">
                     Data Kota
                     <a href="{{route('kota.create')}}"
-                       class="btn btn-primary float-right">
+                       class="btn btn-success float-right">
                         Tambah
                     </a>
                 </div>
@@ -35,7 +35,7 @@
                                         <form action="{{route('kota.destroy',$data->id)}}" method="post">
                                             @method('delete')
                                             @csrf
-                                            <a href="{{route('kota.edit',$data->id)}}" class="btn btn-success">Edit</a>
+                                            <a href="{{route('kota.edit',$data->id)}}" class="btn btn-info">Edit</a>
                                             {{--  <a href="{{route('kota.show',$data->id)}}" class="btn btn-warning">Show</a>  --}}
                                             <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ?')">Delete</button>
                                         </form>
