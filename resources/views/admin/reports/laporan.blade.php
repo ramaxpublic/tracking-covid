@@ -11,7 +11,7 @@
     <div class="container-fluid">
             <div class="col">
                 <div class="row">
-                    <h1>Data Kasus Local</h1>
+                    <h1>Data Kasus</h1>
                 </div>
             </div>
             <div class="card mb-4">
@@ -23,10 +23,10 @@
                                     <th>No</th>
                                     <th><center>Lokasi</center></th>
                                     <th>Rw</th>
-                                    <th>Jumlah Positif</th>
-                                    <th>Jumlah Sembuh</th>
-                                    <th>Jumlah Meninggal</th>
-                                    <th>Tgl</th>
+                                    <th>Positif</th>
+                                    <th>Sembuh</th>
+                                    <th>Meninggal</th>
+                                    <th>Tanggal</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -35,10 +35,10 @@
                                     <tr>
                                         <td>{{$no++}}</td>
                                         <td>
-                                            KELURAHAN : {{ $data->rw->kelurahan->nama_kelurahan }} <br>
-                                            KECAMATAN : {{ $data->rw->kelurahan->kecamatan->nama_kecamatan }} <br>
+                                            PROVINSI : {{ $data->rw->kelurahan->kecamatan->kota->provinsi->nama_provinsi }} <br>
                                             KOTA : {{ $data->rw->kelurahan->kecamatan->kota->nama_kota }} <br>
-                                            PROVINSI : {{ $data->rw->kelurahan->kecamatan->kota->provinsi->nama_provinsi }}
+                                            KECAMATAN : {{ $data->rw->kelurahan->kecamatan->nama_kecamatan }} <br>
+                                            KELURAHAN : {{ $data->rw->kelurahan->nama_kelurahan }} 
                                         </td>
                                         <td>{{$data->rw->nama_rw}}</td>
                                         <td>{{$data->positif}} Orang</td>

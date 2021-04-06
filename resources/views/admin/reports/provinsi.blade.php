@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        Data Laporan Provinsi
+                        Data Laporan Kasus
                     </div>
                     <div class="card-body">
                         <form action="{{ url('admin/report-provinsi') }}" method="POST">
@@ -28,8 +28,7 @@
                                         <br>
                                         <button class="btn btn-success btn-outline">Cari</button>
                                         <a href="{{route('pdfreport')}}"
-                                        class="btn btn-info float-right">
-                                         Pdf
+                                        class="btn btn-danger float-right"><i class="fa fa-pdf">Pdf</i>
                                      </a>
                                     </div>
                                 </div>

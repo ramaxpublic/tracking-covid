@@ -1,4 +1,4 @@
-<div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
+<div class="c-sidebar c-sidebar-green c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
     <div class="c-sidebar-brand d-lg-down-none">
          {{-- <svg class="c-sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
             <use xlink:href="{{ asset('assets/brand/coreui.svg#full') }}"></use>
@@ -122,7 +122,7 @@
                 <a class="c-sidebar-nav-link c-sidebar-nav-dropdown" href="{{ url('admin/report-provinsi') }}">
                     <svg class="c-sidebar-nav-icon">
                         <use xlink:href="{{ asset('assets/vendors/@coreui/icons/svg/free.svg#cil-blur-linear') }}"></use>
-                    </svg> Laporan Provinsi
+                    </svg> Laporan Kasus
                 </a>
             </li>
         @endif

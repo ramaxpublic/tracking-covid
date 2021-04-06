@@ -18,7 +18,7 @@ class ReportController extends Controller
     {
         $awal = $request->awal;
         $akhir = $request->akhir;
-        if ($awal < $akhir) {
+        if ($awal <= $akhir) {
 
             $provinsi = Provinsi::select('provinsis.id', 'provinsis.nama_provinsi', 'provinsis.kode_provinsi', 'kasuses.tanggal', 'kasuses.positif', 'kasuses.sembuh', 'kasuses.meninggal')
                 ->join('kotas', 'provinsis.id', '=', 'kotas.id_provinsi')
