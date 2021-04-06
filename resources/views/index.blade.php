@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card bg-success img-card box-primary-shadow">
+                <div class="card bg-danger img-card box-primary-shadow">
                     <div class="card-body">
                         <div class="d-flex">
                             <div class="text-white">
