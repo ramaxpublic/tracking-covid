@@ -17,10 +17,10 @@
                                                         'selectedProvinsi'=> $kasus->rw->kelurahan->kecamatan->kota->id_provinsi])
                             </div>
                             <div class="col">
-                                <div class="form-group">
+                                {{--  <div class="form-group">
                                     <label for="">Jumlah Kasus Reaktif Covid</label>
                                     <input type="number" class="form-control" name="reaktif" value="{{$kasus->reaktif}}" required>
-                                </div>
+                                </div>  --}}
                                 <div class="form-group">
                                     <label for="">Jumlah Positif Covid</label>
                                     <input type="number" class="form-control" value="{{$kasus->positif}}" name="positif" required>

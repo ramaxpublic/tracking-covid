@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card bg-danger img-card box-primary-shadow">
+                <div class="card bg-success img-card box-primary-shadow">
                     <div class="card-body">
                         <div class="d-flex">
                             <div class="text-white">
@@ -75,7 +75,7 @@
                         <div class="row mt-6">
                             <div class="col text-center">
                                 <h5 class="font-weight-normal mt-2">POSITIF</h5>
-                                <h3 class="text-xxl mb-1 social-content  number-font">{{ $sembuh }}</h3>
+                                <h3 class="text-xxl mb-1 social-content  number-font">{{ $positif }}</h3>
                                 <p class="mb-0 text-muted"><span class="text-lg font-weight-700"></span>ORANG</p>
 
                             </div>
